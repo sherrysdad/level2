@@ -1,0 +1,187 @@
+.containerA{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header header header header"
+        "content-0 content-1 content-1 content-4"
+        "content-0 content-2 content-3 content-4"
+        "footer footer footer footer"
+}
+.containerA> *{
+    border: 0px solid black;
+}
+.containerB{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header header header header"
+        "content-0 content-1 content-1 content-1"
+        "content-0 content-2 content-2 content-2"
+        "footer footer footer footer"
+}
+.containerB> *{
+    border: 0px solid black;
+}
+.header{
+    grid-area: header;
+    
+}
+.content-0{
+    grid-area: content-0;
+    background: url("../images/ah1.jpg");
+    background-size: cover;
+    background-color: rgba(10,10,10,0.2);
+    margin: 1em;
+    border-radius: 12px;
+    position: relative;
+    
+}
+.content-1{
+    grid-area: content-1 ;
+    margin: 1em;
+    position: relative;
+    
+}
+.content-2{
+    grid-area: content-2;
+     margin: 1em;
+    position: relative;
+    
+
+}
+.Content-3{
+    grid-area: content-3;
+     margin: 1em;
+    position: relative;
+}
+.content-4{
+    grid-area: content-4;
+    background: url("../images/ah2.jpg");
+    background-size: cover;
+    background-color: rgba(10,10,10,0.2);
+    margin: 1em;
+    border-radius: 12px;
+    position: relative;
+    
+}
+.footer{
+    grid-area: footer;
+    background: url(../images/llii.jpg);
+    background-size:cover;
+    background-color: rgba(10,10,20,0.2);
+    margin: 1em;
+    border-radius: 12px;
+    position: relative
+    
+    
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: blue;
+    font-family: " lato", sans-serif;
+    
+}
+.title{
+    text-align: center;
+    font-size: 75px;
+    padding-bottom: 60px;
+    font-family: "londrina shadow, sans-serif";
+    color: #cccccc;
+    background-color: rgba(10,10,10,0.2);
+}
+.secondtitle{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 60px;
+    font-family: "londrina shadow, sans-serif";
+    background-color: rgba(10,10,10,0.2);
+    color: #£3£3£3;
+}
+ul{
+    padding: 10px 0px 0px 0px;
+    background: rgba(0,0,0,0.5);
+}
+a{
+    color: white;
+}
+li{
+    display: inline;
+}
+header{
+    background: url(../images/ah7.jpg/);
+    background-size: cover;
+    background-color: rgba(10,10,20,0.2);
+    margin: 1em;
+    border-radius: 12px;
+    position: relative;
+}
+h1 h2 h3{
+   text-align: center;
+   font-family: "londrina shadow", cursive;
+}
+.author{
+    text-align: left;
+    font-family: "londrina shadow", cursive;
+    color:whitesmoke;
+    padding: 1px 20px 1px 20px;
+}
+.Email{
+    text-align: left;
+    font-family: "londrina shadow", cursive;
+    color:blue;
+    padding: 1px 20px 1px 200px;
+}
+.College{
+    text-align: left;
+    font-family: "londrina shadow", cursive;
+    color:blue;
+    padding: 1px 20px 1px 200px;
+}
+.fa{
+    padding: 15px;
+    width: 1px; 
+    text-align: center;
+    text-decoration: none;
+    margin: -15px 2px;
+    border-radius: 90%;
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+.fa-facebook{
+    background: #3B5998;
+    color:white;
+}
+.fa-twitter{
+ background: #55ACEE;
+    color:white;   
+}
+.fa-linkendin{
+     background: #007bb5;
+     color:white; 
+    }
+.fa-youtube{
+    background: red;
+    color:white;
+    }    
+    .fa-instagram{
+        background-color: #125688;
+        color:white;
+    }
+    .fa-tiktok{
+        background: #125688;
+        color:white;
+    }
+   
